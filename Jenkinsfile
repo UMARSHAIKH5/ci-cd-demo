@@ -22,7 +22,7 @@ pipeline {
  }
  stage('Run') {
  steps {
- sh 'cd /var/lib/jenkins/workspace/pipeline3 && go-webapp-sample &'
+ sh 'cd /var/lib/jenkins/workspace/pipeline && go-webapp-sample &'
  }
  }
  }
